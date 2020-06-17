@@ -73,7 +73,7 @@ const player = {
   
   updatePosition: function (map) {
     if (this.x > 0 && this.x < 1.2 && this.y < 2.2 && this.y > 1) {
-      window.location.href = "assets/levels/lvl5/index.html";
+      window.location.href = "https://2dplatform.github.io/assets/levels/lvl5/index.html";
     }
     if (Math.abs(this.vy) < this.maxGravity) {
       this.vy += this.gravity;
